@@ -1,0 +1,60 @@
+p{
+  colour:brown;
+}
+
+#navbar{
+  background-color:yellow;
+}
+
+.box {
+  background-color:white;
+  border:solid 1px black;
+}
+
+* {
+  color:pink;
+}
+
+div p a span {
+  font-style:italic;
+  font-weight:bold;
+}
+div p a{
+  color: blue;
+}
+
+div > a{
+  color: green;
+}
+div + p span {
+  color:pink;
+}
+[id]{
+  border: 5px solid gray;
+}
+[id="first"]{
+  color:yellow;
+}
+[type="text"]{
+  border: 2px solid green;
+}
+a:hover {
+  color:green;
+  font-weight:bold;
+}
+
+a:link {
+  color:purple;
+}
+a:visited {
+  color:darkgray;
+}
+a:active {
+  color:blue;
+}
+
+a::after {
+  content:'8 martie';
+  display: block;
+}
+
